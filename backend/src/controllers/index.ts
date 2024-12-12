@@ -1,0 +1,1 @@
+export {getAllConnectedDevices} from './devices-controller'

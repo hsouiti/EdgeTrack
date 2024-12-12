@@ -1,3 +1,2 @@
-import { devicesRoutes } from "./devices-routes";
+export { devicesRoutes } from "./devices-routes";
 
-export {devicesRoutes}
