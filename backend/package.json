@@ -3,14 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "server": "ts-node src/server.ts"
+  },
+  "_moduleAliases": {
+    "@": "src"
+  },
   "dependencies": {
     "@prisma/client": "^6.0.1",
     "express": "^5.0.1"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.10.2",
     "dotenv": "^16.4.7",
+    "module-alias": "^2.2.3",
     "prisma": "^6.0.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
   }
 }
